@@ -1,0 +1,63 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 70px;
+}
+
+.about {
+    width: 3000px;
+    height: 300px;
+    margin-right: -130px;
+}
+
+.about span:first-child {
+    font-size: 30px;
+}
+
+.about-container .iam {
+    font-size: 30px;
+}
+
+.about-container .role {
+    font-size: 50px;
+    color: darkred;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.about span {
+    font-size: 50px;
+}
+
+.about-container .blinking-cursor {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: black;
+    }
+}
+
+.dp {
+    margin-right: 200px;
+}
+
+.dp img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+}
