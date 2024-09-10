@@ -53,11 +53,16 @@ export const AboutComponent = () => {
                     <span className='iam'>I am a </span>
                     <span className='role'>{role}</span>
                     <span className="blinking-cursor">|</span>
+                    <br></br>
+                    <p>
+                        A skilled React and Node developer with an impressive portfolio, driven by a passion for staying current with both frontend and backend technologies. A collaborative team player, dedicated to delivering high-quality work, and thrive in fast-paced environments. Eager to apply creativity, innovation and ready to make meaningful contributions to dynamic projects.
+                    </p>
                 </div>
 
                 <div className='dp'>
                     <img src={dp} alt="Profile" />
                 </div>
+
             </div>
         </>
     )
