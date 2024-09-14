@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Handjet:wght@100..900&family=Nerko+One&family=Pacifico&display=swap');
 
-* {
-    color: white;
-}
 
 .header {
     padding: 50px;
@@ -11,9 +8,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-radius: 20px;
     position: sticky;
     top: 0;
+    color: white;
+    height: 50px;
 
 }
 

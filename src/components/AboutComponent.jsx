@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../css/About.css'
 import dp from '../assets/dp.png'
-
+import ParticlesComponent from './particles'
 export const AboutComponent = () => {
     const [role, setRole] = useState("");
     const roleArr = ["Web Developer", "Front End Developer", "Back End Developer", "Node Developer", "React Developer"];
@@ -58,7 +58,6 @@ export const AboutComponent = () => {
                         A skilled React and Node developer with an impressive portfolio, driven by a passion for staying current with both frontend and backend technologies. A collaborative team player, dedicated to delivering high-quality work, and thrive in fast-paced environments. Eager to apply creativity, innovation and ready to make meaningful contributions to dynamic projects.
                     </p>
                 </div>
-
                 <div className='dp'>
                     <img src={dp} alt="Profile" />
                 </div>

@@ -1,0 +1,118 @@
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-container h3 {
+    font-size: 35px;
+    color: white
+}
+
+.skill-container p {
+    font-size: 20px;
+    color: grey;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box1 {
+    border: 2px solid rgb(54, 3, 61);
+    box-shadow: 0 0 20px rgb(54, 3, 61);
+    border-radius: 7%;
+    padding: 10px;
+    margin: 20px;
+    width: 600px;
+    height: 170px;
+}
+
+.box1 h4 {
+    margin-left: 40%;
+    font-size: 25px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.box1 ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 li {
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px;
+    border-color: grey;
+    border-radius: 7%;
+    color: grey;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+
+.HTML {
+    color: orangered !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.CSS {
+    color: #264de4 !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.js {
+    color: #FFFF00 !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.react {
+    color: #00d8ff !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.nodeJs {
+    color: #3c873a !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.postgresql {
+    color: blue !important;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.git {
+    color: #F1502F !important;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.github {
+    color: white !important;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.vsCode {
+    color: blue !important;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.chrome {
+    color: blue !important;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 0%;
+}
